@@ -1,0 +1,21 @@
+@import 'bootstrap/scss/_functions.scss';
+@import 'bootstrap/scss/_variables.scss';
+
+$custom-theme-colors: (
+    "darkblue" : $blue-700,
+    "indigo" : $indigo-200
+);
+
+$theme-colors: map-merge($theme-colors, $custom-theme-colors);
+
+@import 'bootstrap/scss/bootstrap.scss';
+
+.kek {
+    background-color: $blue-300;
+}
+.piros {
+    background-color: $red-700;
+}
+.bg-blue700{
+    background-color: $blue-700;
+}

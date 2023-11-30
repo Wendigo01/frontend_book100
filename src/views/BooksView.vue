@@ -4,7 +4,7 @@
         <div class="row">
             <div class="col-12 col-md-3" v-for="book in books">
                 <div class="card">
-                    <img src="" class="card-img-top" alt="...">
+                    <img :src="imgUrl + book.ImageName" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">{{ book.Title }}</h5>
                         <p class="card-text">{{ book.Author }}</p>
